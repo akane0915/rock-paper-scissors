@@ -27,6 +27,10 @@ class String
         output = "Player 1 Wins!"
     elsif self == "scissors" && player2 == "scissors"
       output = "Draw!"
+    elsif self == "scissors" && player2 == "paper"
+        output = "Player 1 Wins!"
+    elsif self == "scissors" && player2 == "rock"
+        output = "Player 2 Wins!"
     end
     output
   end

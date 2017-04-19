@@ -7,7 +7,7 @@ class String
       output = "Player 1 Wins!"
     elsif self == "rock" && player2 == "rock"
       output = "Draw!"
-    else
+    elsif self == "rock" && player2 == "paper"
       output = "Player 2 Wins!"
     end
 
@@ -16,6 +16,10 @@ class String
         output = "Player 1 Wins!"
     elsif self == "paper" && player2 == "paper"
       output = "Draw!"
+    elsif self == "paper" && player2 == "rock"
+      output = "Player 1 Wins!"
+    elsif self == "paper" && player2 == "scissors"
+      output = "Player 2 Wins!"
     end
 
     # Player 1 = Scissors

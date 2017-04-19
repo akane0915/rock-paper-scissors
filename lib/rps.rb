@@ -45,8 +45,20 @@ class String
   end
 end
 
+
+
 class String
   define_method(:rps) do |player2|
+
+    # player2 = 1 + rand(3)
+    # if player2 == 1
+    #   player2 = "rock"
+    # elsif player2 == 2
+    #   player2 = "paper"
+    # elsif player2 == 3
+    #   player2 = "scissors"
+    # end
+
     if self == "rock"
       output = player2.rock()
     elsif self == "paper"

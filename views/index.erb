@@ -1,44 +1,48 @@
 <h1>Rock Paper Scissors</h1>
 <form action="/display">
-  <label for="player1"></label>
+  <div id="player1">
+    <label for="player1"></label>
     <div class="radio">
       <label>
-        <input type="radio" name="player1" value="rock">
+        <input type="radio" name="player1" value="rock" id="rockp1">
         rock
       </label>
     </div>
     <div class="radio">
       <label>
-        <input type="radio" name="player1" value="paper">
+        <input type="radio" name="player1" value="paper" id="paperp1">
         paper
       </label>
     </div>
     <div class="radio">
       <label>
-        <input type="radio" name="player1" value="scissors">
+        <input type="radio" name="player1" value="scissors" id="scissorsp1">
         scissors
       </label>
     </div>
+  <div>
 
-    <label for="player2"></label>
+    <div id="player2">
+      <label for="player2"></label>
       <div class="radio">
         <label>
-          <input type="radio" name="player2" value="rock">
+          <input type="radio" name="player2" value="rock" id="rockp2">
           rock
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="player2" value="paper">
+          <input type="radio" name="player2" value="paper" id="paperp2">
           paper
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="player2" value="scissors">
+          <input type="radio" name="player2" value="scissors" id="scissorsp2">
           scissors
         </label>
       </div>
+    </div>
 
     <button type="submit" name="button">Let's Play!</button>
 </form>

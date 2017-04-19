@@ -19,4 +19,8 @@ describe("String#rockps") do
     expect('scissors'.rockps('scissors')).to(eq('Draw!'))
   end
 
+  it("takes player 1's input as rock and returns a win for player 1 provided player 2 is scissors") do
+    expect('rock'.rockps('scissors')).to(eq('Player 1 Wins!'))
+  end
+
 end
